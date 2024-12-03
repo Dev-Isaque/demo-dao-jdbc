@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "demo-dao-jdbc_5e4f55f1"
+        },
+        {
+            "type": "java",
+            "name": "Launch Java Program",
+            "request": "launch",
+            "mainClass": "Main",
+            "classpath": [
+                "${workspaceFolder}/src",
+                "${workspaceFolder}/lib/mysql-connector-j-9.1.0.jar"
+            ],
+            "env": {
+                "DB_PROPERTIES": "${workspaceFolder}/db.properties"
+            }
+        }
+    ]
+}
