@@ -3,23 +3,10 @@
     "configurations": [
         {
             "type": "java",
-            "name": "App",
+            "name": "Run Program",
             "request": "launch",
-            "mainClass": "App",
+            "mainClass": "application.Program", 
             "projectName": "demo-dao-jdbc_5e4f55f1"
-        },
-        {
-            "type": "java",
-            "name": "Launch Java Program",
-            "request": "launch",
-            "mainClass": "Main",
-            "classpath": [
-                "${workspaceFolder}/src",
-                "${workspaceFolder}/lib/mysql-connector-j-9.1.0.jar"
-            ],
-            "env": {
-                "DB_PROPERTIES": "${workspaceFolder}/db.properties"
-            }
         }
     ]
 }
