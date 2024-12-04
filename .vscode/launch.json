@@ -3,9 +3,16 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Program2",
+            "request": "launch",
+            "mainClass": "application.Program2",
+            "projectName": "demo-dao-jdbc_5e4f55f1"
+        },
+        {
+            "type": "java",
             "name": "Run Program",
             "request": "launch",
-            "mainClass": "application.Program", 
+            "mainClass": "application.Program",
             "projectName": "demo-dao-jdbc_5e4f55f1"
         }
     ]
